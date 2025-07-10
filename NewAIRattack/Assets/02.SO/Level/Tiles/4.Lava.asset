@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6143cfd2e958a47bf39120b3c3e314, type: 3}
+  m_Name: 4.Lava
+  m_EditorClassIdentifier: 
+  tileType: 4
+  material: {fileID: 2100000, guid: 4b503c3143943874db48dcfaa2903129, type: 2}
+  mesh: {fileID: -5495902117074765545, guid: 5abfeb555aebcc94ba79df9d7564a283, type: 3}

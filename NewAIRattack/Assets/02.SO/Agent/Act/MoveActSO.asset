@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dfed120466404149a06a723202376ad, type: 3}
+  m_Name: MoveActSO
+  m_EditorClassIdentifier: 
+  MinCost: 1
+  MaxCost: 10
+  ActName: Move
+  Description: justMove
+  Icon: {fileID: 21300000, guid: 5f379f57cd3c25a4084e4bc7628c85e8, type: 3}
+  AnimParamName: None
+  HashValue: -542986255
+  ActTypeEnum: 3
+  MaxDistance: 10
+  StatModValue: 0.5
+  SKillCoollDown: 1
+  _affectStat: {fileID: 11400000, guid: 4cc84d2e66452bd4e9ede2e8d3451a58, type: 2}
+  _defaultVector: {x: 0, y: 0, z: 0}

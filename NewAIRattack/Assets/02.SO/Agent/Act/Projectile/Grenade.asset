@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c613bce051283b045a1f52a750468923, type: 3}
+  m_Name: Grenade
+  m_EditorClassIdentifier: 
+  MinCost: 1
+  MaxCost: 10
+  ActName: Grenade!
+  Description: "4\uCD08 \uD6C4 \uD3ED\uBC1C\uD558\uB294 \uC218\uB958\uD0C4 \uD22C\uCC99"
+  Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  AnimParamName: Grenade
+  HashValue: -1520575955
+  ActTypeEnum: 0
+  MaxDistance: 25
+  StatModValue: 0.05
+  SKillCoollDown: 2
+  _affectStat: {fileID: 11400000, guid: 4cc84d2e66452bd4e9ede2e8d3451a58, type: 2}
+  Perfab: {fileID: 3255963914195629583, guid: 94b05f3d0cb38814da0f2a3ad19df084, type: 3}

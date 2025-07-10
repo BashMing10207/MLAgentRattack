@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e513d9485aed18b4ba01e6e0f3e1dbc4, type: 3}
+  m_Name: Explosion
+  m_EditorClassIdentifier: 
+  MinCost: 1
+  MaxCost: 10
+  ActName: Explosion
+  Description: "\uC81C\uC790\uB9AC\uC5D0\uC11C \uD3ED\uBC1C\uC744 \uC0DD\uC131"
+  Icon: {fileID: 0}
+  AnimParamName: MagicManga
+  HashValue: -133174533
+  ActTypeEnum: 1
+  MaxDistance: 10
+  StatModValue: 0.02
+  SKillCoollDown: 4
+  _affectStat: {fileID: 11400000, guid: 4cc84d2e66452bd4e9ede2e8d3451a58, type: 2}
+  Perfab: {fileID: -864561556110961137, guid: 4b1f88fc434634046ab497b3a9d2315b, type: 3}
+  AddSizeModifier: 0.1

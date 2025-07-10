@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c613bce051283b045a1f52a750468923, type: 3}
+  m_Name: Rocket
+  m_EditorClassIdentifier: 
+  MinCost: 1
+  MaxCost: 10
+  ActName: RocketLauncher!
+  Description: "\uD3ED\uBC1C\uD558\uB294 \uB300\uC804\uCC28 \uB85C\uCF13\uC744 \uBC1C\uC0AC"
+  Icon: {fileID: 21300000, guid: 600085a6812b701478f9c12323f5236c, type: 3}
+  AnimParamName: Rocket
+  HashValue: -921321944
+  ActTypeEnum: 0
+  MaxDistance: 25
+  StatModValue: 0.005
+  SKillCoollDown: 4
+  _affectStat: {fileID: 11400000, guid: ea5a6d2515169c1409b22c8af8a506f2, type: 2}
+  Perfab: {fileID: 9050954676171508603, guid: fae2463af08e0484f8ef56df2dbe66c7, type: 3}

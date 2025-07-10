@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c08632e9e13744b860316cdfa7a307, type: 3}
+  m_Name: CanHaveSkillStone
+  m_EditorClassIdentifier: 
+  CanHaveSkillList:
+  - {fileID: 11400000, guid: 2d86e03dd59d2a84584628d389c2b023, type: 2}
+  - {fileID: 11400000, guid: 8dfd30f66e92b7b4ca287a59a088cf29, type: 2}
+  - {fileID: 11400000, guid: f8d2b71adbf465b4a85489f746a92918, type: 2}
+  - {fileID: 11400000, guid: 8d92db8a903c0f64ba73c8abac492dd9, type: 2}
+  - {fileID: 11400000, guid: 56509801198d7c542bcea6c5a8f3a1bb, type: 2}
+  - {fileID: 11400000, guid: 428aa7bd99f4b584e970bb28de237a9b, type: 2}
+  - {fileID: 11400000, guid: 755acc4f153ce604f80376115fe3935d, type: 2}
+  - {fileID: 11400000, guid: 44e4c78df329fd345ad73b3783eec104, type: 2}
+  - {fileID: 11400000, guid: 30980f4243f0e38488841c125a9315f7, type: 2}
+  - {fileID: 11400000, guid: 72ba724dad4ae514196fe17c33c260d1, type: 2}
