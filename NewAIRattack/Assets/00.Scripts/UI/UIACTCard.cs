@@ -29,7 +29,7 @@ public class UIACTCard : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler,
     private void OnEnable()
     {
         _rectTrm = GetComponent<RectTransform>();
-        print(_rectTrm.rect);
+        //print(_rectTrm.rect);
         OnClicked.AddListener(SetAction);
     }
     public void Init(ActSO act,int idx,int type)

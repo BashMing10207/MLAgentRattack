@@ -23,6 +23,8 @@ public class ItemManager : GetableCoponentBase, IInventoryable
 
     }
 
+
+
     public bool AddItem(ActSO act)
     {
         if (act == null)

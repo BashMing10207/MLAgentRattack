@@ -7,6 +7,14 @@ public class PlayerUnitController : UnitController
     {
         //_parentUnitCompo.GetCompo<>
         //_parentUnitCompo.MasterController.GetCompo
+        
+
+        
+        //_itemManager
+    }
+
+    public void RunAct(ActSO act)
+    {
 
     }
 
