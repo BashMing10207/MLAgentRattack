@@ -11,6 +11,15 @@ public class GameManager : GetCompoParent //Manager<GameManager>
     private bool _isPlayerturn =true;
     public bool IsPlayerturn => _isPlayerturn;
 
+    protected override void Awake()
+    {
+        //if(Instance != null)
+        //    Destroy(Instance);
+
+        Instance = this;
+        base.Awake();
+        OnTurnEnd += TurnEnd;
+    }
     #region GamePlayManager
     //옵저버패턴이면 GamePlayManage를 만드는 것이 옳으나, 생각보다 GetCompo 혹은 캐싱이 메모리와 CPU자원을 꽤 낭비하여 그래픽 최적화 이후 추후에 할 예정.
 
@@ -42,15 +51,7 @@ public class GameManager : GetCompoParent //Manager<GameManager>
 
     protected Queue<Unit>[] _tempUnits = new Queue<Unit>[10];
 
-    protected override void Awake()
-    {
-        //if(Instance != null)
-        //    Destroy(Instance);
 
-        Instance = this;
-        base.Awake();
-        OnTurnEnd += TurnEnd;
-    }
 
     public void AddUnit(Unit unit)
     {

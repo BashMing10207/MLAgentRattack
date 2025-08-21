@@ -64,7 +64,7 @@ public class AgentActCommander : MonoBehaviour, IGetCompoable
 
     public void SetCurrentAct(ActSO act)
     {
-        _skillAnimator = GameManager.Instance.GetComponent<SkillAnimator>();
+        _skillAnimator = GameManager.Instance.GetCompo<SkillAnimator>();
 
 #if UNITY_EDITOR
         if (_skillAnimator == null)

@@ -6,12 +6,12 @@ public class StatWithEventSO : StatSO
 {
     public UnityEvent<float> ChangeValue;
 
-    protected override float GetModifierValue()
-    {
-        float a = base.GetModifierValue();
+    //protected override float GetModifierValue()
+    //{
+    //    float a = base.GetModifierValue();
 
-        ChangeValue?.Invoke(a);
+    //    ChangeValue?.Invoke(a);
 
-        return a;
-    }
+    //    return a;
+    //}
 }

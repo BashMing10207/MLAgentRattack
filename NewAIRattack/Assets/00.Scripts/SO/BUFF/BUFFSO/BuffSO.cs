@@ -17,42 +17,25 @@ public class BuffSO : ScriptableObject
 
     public StatModifierSO StatModifier;
 
-    public BuffManager TargetBuffManager;
 
-    private GetCompoParent _parent; 
 
-    public virtual void Init(GetCompoParent entity)
+
+    public virtual void StartEffect(GetCompoParent entity)
     {
-        _parent = entity;
-        TargetBuffManager = entity.GetCompo<BuffManager>();
-    }
-
-    public virtual void StatBuff()
-    {
-        TargetBuffManager.AddBuff(this);
-    }
-
-    public virtual void StartEffect()
-    {
-        StatBuff();
+        StatBuff(entity);
     }
 
     public virtual void TurnEffect(GetCompoParent entity)
     {
 
-        RemainingTurn--;
+        //RemainingTurn--;
         
-        if(RemainingTurn ==0) //0이하의 시간을 가지면 무한밍 ㅎㅎ
-        {
-            RemoveBuff();
-        }
+        //if(RemainingTurn ==0) //0이하의 시간을 가지면 무한밍 ㅎㅎ
+        //{
+        //    RemoveBuff();
+        //}
     }
 
-    public virtual void RemoveBuff()
-    {
-        //when Buff ENd
-        TargetBuffManager.RemoveBuff(this);
-    }
 
     public virtual object Clone()
     {
